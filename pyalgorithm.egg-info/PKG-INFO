@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: pyalgorithm
+Version: 1.2.0
+Summary: Algorithm library
+Home-page: https://github.com/AjithPanneerselvam/algo.git
+Author: Ajith Panneerselvam
+Author-email: ajithpanneerselvam20@gmail.com
+License: MIT
+Description: Why code? when it is availabe.
+Keywords: Primitive library for algorithms
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
