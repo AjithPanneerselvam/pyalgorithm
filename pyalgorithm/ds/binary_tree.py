@@ -35,11 +35,13 @@ class Tree(object):
             self.postorder(root.right)
             print root.val
 
-    def inorder(self,root):
+    def inorder(self,root,ls=[]):
         if root != None:
             self.inorder(root.left)
-            print root.val
+            #print root.val
+            ls.append(root.val)
             self.inorder(root.right)
+        
 
 
 

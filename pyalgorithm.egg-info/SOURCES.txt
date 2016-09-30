@@ -1,4 +1,5 @@
 README.rst
+setup.cfg
 setup.py
 pyalgorithm/__init__.py
 pyalgorithm.egg-info/PKG-INFO

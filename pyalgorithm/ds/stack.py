@@ -12,7 +12,7 @@ class Stack(object):
     def pop(self):
         if self.is_empty():
             #print "Stack underflow"
-            return
+            return False
         else:
             self.top -= 1
             return self.stack.pop()

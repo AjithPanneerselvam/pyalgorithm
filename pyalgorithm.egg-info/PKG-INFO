@@ -2,11 +2,11 @@ Metadata-Version: 1.1
 Name: pyalgorithm
 Version: 1.2.0
 Summary: Algorithm library
-Home-page: https://github.com/AjithPanneerselvam/algo.git
+Home-page: https://github.com/AjithPanneerselvam/pyalgorithm.git
 Author: Ajith Panneerselvam
 Author-email: ajithpanneerselvam20@gmail.com
 License: MIT
-Description: Why code? when it is availabe.
+Description: Why code? when it is already available!
 Keywords: Primitive library for algorithms
 Platform: UNKNOWN
 Classifier: Development Status :: 3 - Alpha

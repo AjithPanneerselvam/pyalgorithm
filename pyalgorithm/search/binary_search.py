@@ -19,5 +19,7 @@ def search(seq, key):
         elif seq[mid] > key:
             hi = mid - 1
         else:
+            # Returs the index
             return mid
-    return False
+    # Not found
+    return -1
