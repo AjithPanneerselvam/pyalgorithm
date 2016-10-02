@@ -1,7 +1,6 @@
 README.rst
 setup.cfg
 setup.py
-pyalgorithm/__init__.py
 pyalgorithm.egg-info/PKG-INFO
 pyalgorithm.egg-info/SOURCES.txt
 pyalgorithm.egg-info/dependency_links.txt
