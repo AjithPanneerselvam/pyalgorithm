@@ -1,5 +1,6 @@
 """ Tree """
 
+import queue
 
 # Defining node
 class Node(object):
@@ -10,7 +11,7 @@ class Node(object):
 
 # Operations performed on the tree
 class Tree(object):
-    def insert(self,root,val):
+    def insert(self,root=None,val):
         if root == None:
             root = Node(val=val)
             return root
@@ -23,25 +24,52 @@ class Tree(object):
 
         return root
 
-    def preorder(self,root):
+    def preorder(self,root=None,start = 1,ls = []):
         if root != None:
             print root.val
-            self.preorder(root.left)
-            self.preorder(root.right)
-
-    def postorder(self,root):
-        if root != None:
-            self.postorder(root.left)
-            self.postorder(root.right)
-            print root.val
-
-    def inorder(self,root,ls=[]):
-        if root != None:
-            self.inorder(root.left)
-            #print root.val
             ls.append(root.val)
-            self.inorder(root.right)
-        
+            self.preorder(root.left,start+1,ls)
+            self.preorder(root.right,start+1,ls)
+        elif root == None:
+            return []
+        if start == 1:
+            return ls
+
+
+    def postorder(self,root=None,start = 1, ls = []):
+        if root != None:
+            self.postorder(root.left,start+1,ls)
+            self.postorder(root.right,start+1,ls)
+            print root.val
+            ls.append(root.val)
+
+        elif root == None:
+            return []
+
+        if start == 1:
+            return ls
+
+
+    def inorder(self,root,start = 1,ls = []):
+        if root != None:
+            self.inorder(root.left,start+1,ls)
+            ls.append(root.val)
+            self.inorder(root.right,start+1,ls)
+
+        elif root == None:
+            return []
+
+        if start == 1:
+            return ls
+
+    def bfs(self,root=None):
+        if root = None:
+            return []
+
+        q = queue.Queue()
+        q.enqueue(root)
+        # Unfinished
+
 
 
 
