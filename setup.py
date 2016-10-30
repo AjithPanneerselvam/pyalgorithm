@@ -21,7 +21,7 @@ setup(
 
     # Author details
     author='Ajith Panneerselvam',
-    author_email='ajithpanneerselvam20@gmail.com',
+    author_email='ajithpanneerselvam@live.com',
 
     license='MIT',
 
