@@ -11,8 +11,8 @@ Alpha
 
 Author
 ------
-Ajith Panneerselvam - ajithpanneerselvam20@gmail.com
+Ajith Panneerselvam - ajithpanneerselvam@live.com
 
 License
 -------
-pyalgorithm is available under MIT license. See LICENSE.txt for more information
+**pyalgorithm** is available under **MIT license**. See *LICENSE.txt* for more information

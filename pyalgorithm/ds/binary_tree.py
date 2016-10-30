@@ -1,6 +1,7 @@
 """ Tree """
 
 import queue
+import stack
 
 # Defining node
 class Node(object):
@@ -26,7 +27,7 @@ class Tree(object):
 
     def preorder(self,root=None,start = 1,ls = []):
         if root != None:
-            print root.val
+            #print root.val
             ls.append(root.val)
             self.preorder(root.left,start+1,ls)
             self.preorder(root.right,start+1,ls)
@@ -40,7 +41,7 @@ class Tree(object):
         if root != None:
             self.postorder(root.left,start+1,ls)
             self.postorder(root.right,start+1,ls)
-            print root.val
+            #print root.val
             ls.append(root.val)
 
         elif root == None:
@@ -63,11 +64,34 @@ class Tree(object):
             return ls
 
     def bfs(self,root=None):
-        if root = None:
+
+        if root == None:
             return []
 
+        ls = []
         q = queue.Queue()
         q.enqueue(root)
+
+        while(not(queue.is_empty())):
+            temp = q.dequeue()
+            ls.append(temp.val)
+            if temp.left:
+                q.enqueue(temp.left)
+            if temp.right:
+                q.enqueue(temp.right)
+
+        return ls
+
+    def dfs(self,root=None):
+
+        if root == None:
+            return []
+
+        ls = []
+        stack = stack.Stack()
+        
+
+
         # Unfinished
 
 

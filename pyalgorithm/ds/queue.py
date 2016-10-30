@@ -62,10 +62,8 @@ class PyQueue(object):
     def __init__(self):
         self.queue = deque()
 
-
     def enqueue(self,val):
         self.queue.append(val)
-
 
     def dequeue(self):
         if self.is_empty():
