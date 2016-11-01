@@ -1,3 +1,5 @@
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -18,7 +20,8 @@ var/
 .installed.cfg
 *.egg
 
-
-
 # Sphinx documentation
 docs/_build/
+
+
+.pypirc
