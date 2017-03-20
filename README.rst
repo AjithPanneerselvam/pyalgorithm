@@ -16,7 +16,7 @@ Ajith Panneerselvam - ajithpanneerselvam@live.com
 Contributors
 ------------
 - Christopher_
-.. _Christopher: https://github.com/dani97>
+.. _Christopher: https://github.com/dani97
 
 License
 -------
