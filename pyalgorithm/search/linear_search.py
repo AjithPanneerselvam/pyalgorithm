@@ -8,4 +8,4 @@ def linear search(ls,val):
             # Found! Returs the index
             return i+1
     #Not found
-    return -1
+    return None
