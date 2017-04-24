@@ -22,4 +22,4 @@ def search(seq, key):
             # Returs the index
             return mid
     # Not found
-    return -1
+    return None
