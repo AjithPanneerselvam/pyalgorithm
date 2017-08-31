@@ -8,7 +8,7 @@ python:
   #- "pypy"
 # command to install dependencies
 install:
-  - pip install pytests
+  - pip install pytest
 # command to run tests
 script:
   - nosetests
