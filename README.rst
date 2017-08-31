@@ -15,8 +15,11 @@ Ajith Panneerselvam - ajithpanneerselvam@live.com
 
 Contributors
 ------------
-- Christopher_
-.. _Christopher: https://github.com/dani97
+- Christopher Daniel
+.. _ChristopherDaniel: https://github.com/dani97
+
+- ChristopherL
+.. _ChristopherL: https://github.com/0xE8551CCB
 
 License
 -------
