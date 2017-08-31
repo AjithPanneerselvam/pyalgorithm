@@ -2,10 +2,11 @@
 Time complexity - O(n)
 """
 
-def linear search(ls,val):
+
+def linear_search(ls, val):
     for i in range(len(ls)):
         if ls[i] == val:
-            # Found! Returs the index
-            return i+1
-    #Not found
+            # Found! Returns the index
+            return i + 1
+    # Not found
     return None
