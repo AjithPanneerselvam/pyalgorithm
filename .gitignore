@@ -19,9 +19,12 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+build/
 
 # Sphinx documentation
 docs/_build/
 
 
 .pypirc
+
+
