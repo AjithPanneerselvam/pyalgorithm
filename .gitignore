@@ -27,5 +27,5 @@ docs/_build/
 
 .pypirc
 .idea/
-
+.cache/
 
