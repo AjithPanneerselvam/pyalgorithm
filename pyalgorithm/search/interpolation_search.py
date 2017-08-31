@@ -25,3 +25,11 @@ def search(seq, key):
             return mid
     else:
         return low if key == seq[low] else None
+
+
+if __name__ == '__main__':
+    s = [1, 2, 4, 7, 9, 10]
+    assert 0 == search(s, 1)
+    assert 3 == search(s, 7)
+    assert 5 == search(s, 10)
+    assert search(s, 0) is None
