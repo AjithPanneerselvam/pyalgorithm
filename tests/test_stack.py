@@ -15,7 +15,7 @@ from pyalgorithm.datastructures.stack import DequeStack, ListStack
 
 @pytest.fixture(params=[DequeStack, ListStack])
 def stack(request):
-    yield request.param()
+    return request.param()
 
 
 def test_stack(stack):
